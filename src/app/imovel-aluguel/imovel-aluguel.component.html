@@ -1,0 +1,17 @@
+<section class="content">
+    <article>
+        <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}"> 
+            <h2 class="listing-heading">{{imovel?.nome}}</h2>
+            <p class="listing-location">
+                {{imovel?.cidade}}, {{imovel?.estado}}
+            </p>
+            <section class="listing-features">
+                <h2 class="section-heading">Informações adicionais</h2>
+                <ul>
+                    @for(info of imovel?.aluguel; track $index){
+                        <li>{{info.chave}}: {{info.valor}}</li>
+                    }
+                </ul>
+            </section>    
+    </article>
+</section>

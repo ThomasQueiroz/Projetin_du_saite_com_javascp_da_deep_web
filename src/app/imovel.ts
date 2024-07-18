@@ -4,6 +4,10 @@ chave: String;
 valor: number | String;
 
 }
+interface DetalhesAluguel {
+    chave: String;
+    valor: String 
+}
 
 export interface Imovel {
 
@@ -17,7 +21,7 @@ tipo: String;
 favorito: boolean;
 lat:number;
 long:number;
-
+aluguel: DetalhesAluguel[];
 }
 
 

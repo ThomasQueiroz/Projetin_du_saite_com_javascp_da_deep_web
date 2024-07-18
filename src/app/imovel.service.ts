@@ -33,12 +33,22 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$2.500.000"
+                "valor": "R$2.500.000,00"
             },
             {
                 "chave": "Descrição",
                 "valor": "Sobrado espaçoso e bonito em um bairro tranquilo da capital amazonense",
             },        
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$10.000,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$120.000,00"
+            },
         ]
     },
     {
@@ -66,11 +76,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$400.000"
+                "valor": "R$400.000,00"
             },
             {
                 "chave": "Descrição",
                 "valor": "Aprtamento simples e bem localizado dentro da grande cidade de New York",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$1.000,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$12.000,00"
             },
         ]
     },
@@ -99,11 +119,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$500.000"
+                "valor": "R$500.000,00"
             },
             {
                 "chave": "Descrição",
                 "valor": "Casarão bem conservado, que fica isolado da área urbana de Americana, proporcionando tranquilidade a seu proprietário",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$1.500,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$30.000,00"
             },
         ]
     },
@@ -132,12 +162,22 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$400.000",
+                "valor": "R$400.000,00",
             },
             {
                 "chave": "Descrição",
                 "valor": "Casa simples e bonita no interior de São Paulo",
             },
+            ],
+            "aluguel":[
+                {
+                    "chave": "Aluguel mensal",
+                    "valor": "R$1.300,00"
+                },
+                {
+                   "chave": "Aluguel anual",
+                    "valor": "R$15.600,00"
+                },
             ]
     },
     {
@@ -165,11 +205,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$30.000",
+                "valor": "R$30.000,00",
             },
             {
                 "chave": "Descrição",
                 "valor": "Kitnet bem localizada perto do centro de Piracicaba",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$500,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$6.000,00"
             },
         ]
     },
@@ -198,11 +248,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$1.000.000",
+                "valor": "R$1.000.000,00",
             },
             {
                 "chave": "Descrição",
                 "valor": "Apartamento luxuoso, bonito, bem localizado e tranquilo em Cabreúva",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$10.000,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$120.000,00"
             },
         ]
     },
@@ -231,11 +291,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$175.000",
+                "valor": "R$175.000,00",
             },
             {
                 "chave": "Descrição",
                 "valor": "Casa simples e tranquila na Patagônia Argentina",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$700,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$8.400,00"
             },
         ]
     },
@@ -264,11 +334,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$2.000.000",
+                "valor": "R$2.000.000,00",
             },
             {
                 "chave": "Descrição",
                 "valor": "Casa luxuosa, tranquila, bela, segura e espaçosa, ficando perto das rodovias de Piracicaba",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$20.000,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$240.000,00"
             },
         ]
     },
@@ -297,11 +377,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$130.000",
+                "valor": "R$130.000,00",
             },
             {
                 "chave": "Descrição",
                 "valor": "Apartamento simples perto do centro de João Pessoa",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$650,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$7.800,00"
             },
         ]
     },
@@ -330,11 +420,21 @@ export class ImovelService {
             },
             {
                 "chave": "Valor",
-                "valor": "R$2.500.000",
+                "valor": "R$2.500.000,00",
             },
             {
                 "chave": "Descrição",
                 "valor": "Mansão luxuosa, espaçosa, tranquila e segura em uma das principais cidades do estado de São Paulo",
+            },
+        ],
+        "aluguel":[
+            {
+                "chave": "Aluguel mensal",
+                "valor": "R$25.000,00"
+            },
+            {
+               "chave": "Aluguel anual",
+                "valor": "R$300.000,00"
             },
         ]
     }
