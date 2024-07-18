@@ -21,6 +21,7 @@ tipo: String;
 favorito: boolean;
 lat:number;
 long:number;
+valor: number;
 aluguel: DetalhesAluguel[];
 }
 

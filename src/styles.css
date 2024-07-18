@@ -27,3 +27,7 @@ button.primary {
 .alinha{
     margin-left: 5px;
   }
+
+  .cursor{
+    cursor:pointer;
+  }

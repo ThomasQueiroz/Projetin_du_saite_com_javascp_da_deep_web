@@ -16,6 +16,7 @@ export class ImovelService {
         "estado": "Amazonas",
         "favorito": false,
         "tipo": "casa",
+        "valor": 2500000,
         "lat":-25.4042073,
         "long":-49.2652915,
         "adicional": [
@@ -30,10 +31,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "2.000 m²"
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$2.500.000,00"
             },
             {
                 "chave": "Descrição",
@@ -59,6 +56,7 @@ export class ImovelService {
         "estado": "New York",
         "favorito": false,
         "tipo": "apartamento",
+        "valor": 400000,
         "lat":40.340573,
         "long":-8.5877803,
         "adicional": [
@@ -73,10 +71,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "70 m²",
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$400.000,00"
             },
             {
                 "chave": "Descrição",
@@ -102,6 +96,7 @@ export class ImovelService {
         "estado": "São Paulo",
         "favorito": false,
         "tipo": "casa",
+        "valor": 500000,
         "lat":63.3546078,
         "long":10.3659183,
         "adicional": [
@@ -116,10 +111,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "300 m²"
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$500.000,00"
             },
             {
                 "chave": "Descrição",
@@ -145,6 +136,7 @@ export class ImovelService {
         "estado": "São Paulo",
         "favorito": false,
         "tipo": "casa",
+        "valor": 400000,
         "lat":44.9274604,
         "long":-93.2843931,
         "adicional": [
@@ -159,10 +151,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "250 m²",
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$400.000,00",
             },
             {
                 "chave": "Descrição",
@@ -188,6 +176,7 @@ export class ImovelService {
         "estado": "São Paulo",
         "favorito": false,
         "tipo": "casa",
+        "valor": 30000,
         "lat":-17.7819405,
         "long":-63.1478696,
         "adicional": [
@@ -202,10 +191,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "40 m²",
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$30.000,00",
             },
             {
                 "chave": "Descrição",
@@ -231,6 +216,7 @@ export class ImovelService {
         "estado": "São Paulo",
         "favorito": false,
         "tipo": "casa",
+        "valor": 1000000,
         "lat":-9.6467952,
         "long":-35.7365195,
         "adicional": [
@@ -245,10 +231,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "300 m²",
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$1.000.000,00",
             },
             {
                 "chave": "Descrição",
@@ -274,6 +256,7 @@ export class ImovelService {
         "estado": "Santa Cruz",
         "favorito": false,
         "tipo": "casa",
+        "valor": 175000,
         "lat":-6.4368418,
         "long":-35.6403379,
         "adicional": [
@@ -317,6 +300,7 @@ export class ImovelService {
         "estado": "São Paulo",
         "favorito": false,
         "tipo": "casa",
+        "valor": 2000000,
         "lat": -23.5678215,
         "long": -46.5475334,
         "adicional": [
@@ -331,10 +315,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "400 m²",
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$2.000.000,00",
             },
             {
                 "chave": "Descrição",
@@ -360,6 +340,7 @@ export class ImovelService {
         "estado": "Paraíba",
         "favorito": false,
         "tipo": "apartamento",
+        "valor": 130000,
         "lat": -23.5023718,
         "long": -46.8507548,
         "adicional": [
@@ -374,10 +355,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "52 m²",
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$130.000,00",
             },
             {
                 "chave": "Descrição",
@@ -403,6 +380,7 @@ export class ImovelService {
         "estado": "São Paulo",
         "favorito": false,
         "tipo": "casa",
+        "valor": 2500000,
         "lat":-23.4938383,
         "long":-46.8471592,
         "adicional": [
@@ -417,10 +395,6 @@ export class ImovelService {
             {
                 "chave": "Área",
                 "valor": "360 m²",
-            },
-            {
-                "chave": "Valor",
-                "valor": "R$2.500.000,00",
             },
             {
                 "chave": "Descrição",

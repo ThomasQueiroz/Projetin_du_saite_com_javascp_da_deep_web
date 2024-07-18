@@ -1,3 +1,4 @@
+<img  src="Seta.png" alt="Voltar" class="voltar cursor" (click)="voltarInicio()">
 <section class="content">
     <article>
         <img class="listing-photo" alt="Foto" src="{{imovel?.url_foto}}">
@@ -14,12 +15,12 @@
                 @for(info of imovel?.adicional; track $index){
                     <li>{{info.chave}}: {{info.valor}}</li>
                 }
+                <li>Valor do imóvel: {{valorImovel}}</li>
             </ul>
         </section>
         <div>
-            <button type="button" class="primary alinha" (click)="abrirPaginaAluguel()">Alugar</button>
-            <button type="button" class="primary alinha">Comprar</button>
-            <button type="button" class="primary alinha">Calcular Financiamento</button>
+            <button type="button" class="primary alinha cursor" (click)="abrirPaginaAluguel()">Alugar</button>
+            <button type="button" class="primary alinha cursor" (click)="abrirPaginaFinanciamento()">Calcular Financiamento</button>
         </div>
     </article>
 </section>

@@ -8,18 +8,21 @@ import localePt from '@angular/common/locales/pt'
 
 registerLocaleData(localePt)
 
+
 @Component({
-  selector: 'app-imovel-detalhes',
+  selector: 'app-imovel-financiamento',
   standalone: true,
   imports: [
     FormsModule, CommonModule
   ],
-  templateUrl: './imovel-detalhes.component.html',
-  styleUrl: './imovel-detalhes.component.css'
+  templateUrl: './imovel-financiamento.component.html',
+  styleUrl: './imovel-financiamento.component.css'
 })
-export class ImovelDetalhesComponent {
-
+export class ImovelFinanciamentoComponent {
   imovel: Imovel | undefined
+  valorEntrada: number | null = null
+  prazoMeses = 0
+  valorParcela = 0
   valorImovel = ""
 
   constructor(
@@ -33,20 +36,25 @@ export class ImovelDetalhesComponent {
       this.valorImovel = this.formatCurrency(this.imovel.valor)
     }
   }
-  abrirPaginaAluguel() {
-    const url = `/detalhes/${this.imovel?.id}/aluguel`
-    this.rt.navigate([url])
-  }
-  abrirPaginaFinanciamento() {
-    const url = `/detalhes/${this.imovel?.id}/financiamento`
-    this.rt.navigate([url])
-  }
-  voltarInicio(){
-    this.rt.navigate(["/"])
+  calcular(){
+    if (this.valorEntrada == null) {
+      this.valorEntrada = 0
+    }
+    if (this.imovel ) {
+      const precoImovel = this.imovel?.valor - this.valorEntrada
+      this.valorParcela = precoImovel / this.prazoMeses
+      if (this.valorParcela > precoImovel) {
+        location.reload()
+        alert("Digite um número menor que o valor do imóvel")
+      }
+    }
   }
   formatCurrency(value: number): string {
     if (value === undefined || value === null) return ''
     return value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
   }
+  voltarDetalhes(){
+    const url = `/detalhes/${this.imovel?.id}`
+    this.rt.navigate([url])
   }
-  
+}
